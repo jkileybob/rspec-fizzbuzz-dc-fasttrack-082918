@@ -2,11 +2,15 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0
-    puts "FizzBuzz"
-  elsif int % 3 == 0 # if the number int is divisible by 3
-    puts "Fizz"   # Go fizz
+     "FizzBuzz"
+  elsif int % 3 == 0 
+    
+     "Fizz"   
   elsif int % 5 == 0
-    puts "Buzz"
-  else nil
+     "Buzz"
+  else
+    nil
   end
 end
+fizzbuzz(3)
+puts fizzbuzz(3)
