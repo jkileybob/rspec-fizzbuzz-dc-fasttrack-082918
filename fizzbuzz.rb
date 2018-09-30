@@ -12,5 +12,3 @@ def fizzbuzz(int)
     nil
   end
 end
-fizzbuzz(3)
-puts fizzbuzz(3)
